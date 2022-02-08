@@ -17,7 +17,7 @@ function impactReport() {
    var endDate = new Date(result.getResponseText());*/
 
 // Lines 20-23 are for manual entry
-var client = "Eb & Bean LLC";
+var client = "Glory Bee Foods Inc";
   var clientAddress = "1140 SE 7th Ave, Portland, OR 97214";
   var startDate = new Date("1/1/2021");
   var endDate = new Date("1/1/2022"); 
@@ -29,7 +29,7 @@ var client = "Eb & Bean LLC";
 // Sheet containing account address book transformed to an array  
   var accountAddressBookArray = ss.getSheetByName("Delivery Accounts").getDataRange().getValues();
 
-// 2020 array filetered by client
+// 2020 array filetered by client (see rddFilterByClient.gs)
   var rddClientFiltered = rddFilteredByClient(ss, client, startDate, endDate)
 
 // indexedRangesOfDays() is a method that returns an array in the form [[date 1, startRow, endRow],[date2, startRow, endRow],...]; REMEMBER: index starts at 0
