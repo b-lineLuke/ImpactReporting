@@ -8,8 +8,8 @@ function addressArrayRouter(clientAddress,addressesArray) {
 
     var directionsFile = directions.getDirections();
 
+   var route = directionsFile.routes[0];
 
-    var route = directionsFile.routes[0];
     return route;
 }
 

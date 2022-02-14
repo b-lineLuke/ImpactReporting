@@ -11,6 +11,5 @@ function getListOfDays(rddArray) {
         listOfDays.push(date)
       }
     }
-    Logger.log(listOfDays)
-    return listOfDays
+        return listOfDays
   }
