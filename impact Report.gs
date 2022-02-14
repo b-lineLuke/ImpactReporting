@@ -1,12 +1,12 @@
 function impactReport() {
-  var client = "Eb & Bean LLC";
+  var client = "GROUND UP PDX";
   var clientAddress = "1140 SE 7th Ave, Portland, OR 97214";
   var startDate = new Date("1/1/2021");
   var endDate = new Date("1/1/2022");
 
 
   // This calles the spreadsheet containing account addresses using the URL
-  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1vgnSQHrOf46p9-yzRs1xc5YR20WTd6u0Rjm63J1rpqU/edit#gid=852513261");
+  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1KFfqh7qjw7NSzuel0lFsPMzsl1RZoo7I3eBRttrYTZo/edit#gid=0");
 
   // Sheet containing account address book transformed to an array  
   var accountAddressBookArray = ss.getSheetByName("Delivery Accounts").getDataRange().getValues();
