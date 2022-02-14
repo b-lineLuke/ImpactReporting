@@ -1,8 +1,8 @@
 function impactReport() {
-  var client = "Eb & Bean LLC";
+  var client = "BARNACLE LLC";
   var clientAddress = "1140 SE 7th Ave, Portland, OR 97214";
-  var startDate = new Date("1/1/2021");
-  var endDate = new Date("1/1/2022");
+  var startDate = new Date("1/4/2021");
+  var endDate = new Date("1/6/2021");
 
 
   // This calles the spreadsheet containing account addresses using the URL

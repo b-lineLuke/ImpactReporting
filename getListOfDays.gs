@@ -5,7 +5,7 @@ function getListOfDays(rddArray) {
       var date = row[0];
       var date = date.setHours(0, 0, 0, 0)
       var checkInListOfDays = listOfDays.filter(function (a) {
-        return a[0] == date
+        return a == date
       })
       if (checkInListOfDays.length == 0) {
         listOfDays.push(date)
